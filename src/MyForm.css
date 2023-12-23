@@ -1,0 +1,137 @@
+.accounts-payables {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.accounts-payables button {
+  padding: 10px;
+  font-size: 24px;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  margin-bottom: 20px;
+  box-shadow: 0 9px #999;
+  display: inline-block;
+  transition-duration: 0.4s;
+}
+
+.transaction-form {
+  background-color: lightblue;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+.transaction-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.transaction-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.transaction-form input {
+  margin: 10px 0;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.transaction-form button1 {
+  padding: 10px;
+  font-size: 24px;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  width: 100px; /* Set the desired width */
+  height: 20px; /* Set the desired height */
+  margin-bottom: 20px;
+  box-shadow: 0 9px #999;
+  display: inline-block;
+  transition-duration: 0.4s;
+}
+
+.transaction-form button1:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.transaction-form button2:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.transaction-form button2 {
+  padding: 10px;
+  font-size: 24px;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  background-color: #ff8500;
+  width: 100px; /* Set the desired width */
+  height: 20px; /* Set the desired height */
+  margin-bottom: 20px;
+  box-shadow: 0 9px #999;
+  display: inline-block;
+  transition-duration: 0.4s;
+}
+
+.transaction-form button:hover {
+  background-color: #0056b3;
+}
+.inline-button {
+  display: inline-block;
+}
+
+.receivable-grid {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.receivable-grid h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #007bff;
+  color: white;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f0f0f0;
+}
